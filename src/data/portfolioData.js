@@ -21,10 +21,10 @@ export const PORTFOLIO_DATA = {
         role: "Telecommunications Engineer",
         bio: "Passionate about communication systems, embedded technology, and intelligent engineering solutions. Designing practical systems by integrating hardware, software, and communication technologies to solve real-world engineering challenges.",
         location: "Semarang, Indonesia",
-        email: "",
+        email: "ghibranesa71576@gmail.com",
         socials: {
-            github: "",
-            linkedin: ""
+            github: "ghibranesa",
+            linkedin: "ghibranesa"
         }
     },
     experience: [],
