@@ -18,7 +18,7 @@ const CAPABILITIES = [
   },
   {
     title: 'Network Technologies',
-    desc: 'Experienced in network installation, maintenance, troubleshooting, and FTTH infrastructure deployment.',
+    desc: 'Experienced in network installation, maintenance, troubleshooting, and FTTx infrastructure deployment.',
     icon: Network,
   },
   {
