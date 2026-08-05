@@ -60,7 +60,7 @@ const achievements = [
     rank: 'National',
     category: 'Essay',
     title: '2nd Runner-Up',
-    event: 'February Fair Essay Competition 2025',
+    event: 'FKMPI Fair Essay Competition 2025',
     year: 'March 2025',
     organizer: 'Forum Komunikasi Mahasiswa Politeknik Indonesia — Politeknik Negeri Semarang',
     description: 'Awarded 2nd Runner-Up in a national essay competition organized by the Forum Komunikasi Mahasiswa Politeknik Indonesia at Politeknik Negeri Semarang.',
@@ -87,7 +87,7 @@ const achievements = [
 ];
 
 const STATS = [
-  { value: 'TELCO', label: 'Telecommunication\nEngineering' },
+  { value: 'TELCO', label: 'Telco\nEngineering' },
   { value: 'IoT', label: 'Smart\nSystems' },
   { value: 'R&D', label: 'Research &\nDevelopment' },
 ];
