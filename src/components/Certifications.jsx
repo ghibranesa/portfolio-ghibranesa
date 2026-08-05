@@ -47,7 +47,7 @@ const certifications = [
     logo: '/images/skills/cisco.png',
     issuer: 'Cisco Networking Academy',
     program: null,
-    period: 2025,
+    period: 2024,
     credentialId: null,
     impact: 'Foundational Cisco certification validating knowledge of networking concepts, IPv4/IPv6 addressing, and Ethernet communication principles.',
     tags: ['Cisco', 'Networking', 'IPv4', 'IPv6', 'CCNA'],
