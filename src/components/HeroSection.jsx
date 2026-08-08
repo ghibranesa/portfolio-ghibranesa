@@ -262,7 +262,7 @@ const HeroSection = memo(function HeroSection({ isRevealed = true }) {
           </h2>
 
           <p className="font-sans text-base text-black/60 max-w-xl leading-7 mt-2 px-4">
-          Telecommunications engineering student focused on communication systems, IoT, embedded technology, and software development, with hands-on experience in technical troubleshooting and practical engineering projects.
+            Telecommunications Engineering graduate focused on RF and cellular networks, fiber optic communications, computer networking, embedded systems, and IoT, with hands-on experience in practical engineering projects, system integration, and technical troubleshooting.
           </p>
         </Gsap.div>
 

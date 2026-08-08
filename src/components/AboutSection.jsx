@@ -93,12 +93,12 @@ const STATS = [
 ];
 
 const CAPABILITIES = [
-  'Telecommunication Systems',
+  'RF & Cellular Networks',
+  'Fiber Optic Communications',
+  'Computer Networking',
   'Embedded Systems',
   'Internet of Things (IoT)',
   'System Integration',
-  'Technical Troubleshooting',
-  'Web Application Development',
 ];
 
 /* ─────────────────────────────────────────
