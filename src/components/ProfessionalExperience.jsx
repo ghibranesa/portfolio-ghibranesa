@@ -42,7 +42,7 @@ const experiences = [
       'Field Support',
     ],
     description: [
-      'Assisted technicians in FTTx (IndiHome and Indibiz) installation for residential and business customers.',
+      'Assisted technicians in FTTx (IndiHome and IndiBiz) installation for residential and business customers.',
       'Supported maintenance activities including equipment replacement and signal quality inspection.',
       'Participated in onsite troubleshooting to maintain internet, telephone, and IPTV service quality.',
     ],

@@ -1,50 +1,50 @@
 import { memo, useRef, useState, useEffect } from 'react';
 import { Gsap, useGsapInView } from '../utils/gsapAnimate';
 import {
-  Radio,
+  RadioTower,
+  Cable,
   Network,
   Cpu,
-  Wrench,
-  Globe,
-  Code2,
-  Workflow
+  Globe2,
+  Workflow,
+  Wrench
 } from 'lucide-react';
 
 const CAPABILITIES = [
   {
-    title: 'Communication Systems',
-    desc: 'Understanding of telecommunication principles, signal transmission, and modern communication network architecture.',
-    icon: Radio,
+    title: 'RF & Cellular Networks',
+    desc: 'Understanding of cellular network technologies, RF fundamentals, drive testing, and network performance analysis across 2G, 3G, and 4G.',
+    icon: RadioTower,
   },
   {
-    title: 'Network Technologies',
-    desc: 'Experienced in network installation, maintenance, troubleshooting, and FTTx infrastructure deployment.',
+    title: 'Fiber Optic & FTTx',
+    desc: 'Hands-on experience with FTTx infrastructure, fiber optic installation, OLT, ODC, ODP, maintenance, and field troubleshooting.',
+    icon: Cable,
+  },
+  {
+    title: 'Computer Networking',
+    desc: 'Knowledge of routing, switching, VLANs, wireless networking, DHCP, OSPF, and network troubleshooting using Cisco technologies.',
     icon: Network,
   },
   {
     title: 'Embedded Systems',
-    desc: 'Designing embedded solutions using ESP32, sensors, actuators, and microcontroller-based automation.',
+    desc: 'Developing microcontroller-based systems using ESP32, sensors, actuators, firmware, and hardware control.',
     icon: Cpu,
   },
   {
-    title: 'Internet of Things',
-    desc: 'Developing IoT systems integrating hardware, firmware, cloud communication, and web monitoring.',
-    icon: Globe,
+    title: 'IoT Systems',
+    desc: 'Building connected systems that integrate embedded hardware, sensor data, HTTP communication, and web-based monitoring.',
+    icon: Globe2,
   },
   {
     title: 'System Integration',
-    desc: 'Integrating hardware, software, networking, and automation into reliable engineering solutions.',
+    desc: 'Integrating hardware, firmware, networking, and software components into functional and reliable engineering systems.',
     icon: Workflow,
   },
   {
     title: 'Technical Troubleshooting',
-    desc: 'Analyzing technical problems and performing systematic diagnostics to ensure reliable system operation.',
+    desc: 'Applying systematic diagnostics and problem-solving to identify faults, evaluate system performance, and improve reliability.',
     icon: Wrench,
-  },
-  {
-    title: 'Software Development',
-    desc: 'Developing responsive web applications and embedded firmware using modern programming technologies.',
-    icon: Code2,
   },
 ];
 

@@ -332,7 +332,7 @@ const AboutSection = memo(function AboutSection() {
               className="flex items-center gap-3 mb-8 md:mb-9"
             >
               <span className="font-mono text-[10px] md:text-[10.5px] uppercase tracking-[0.2em] text-black/35">
-                Telecommunication Systems · Embedded Systems · IoT Development
+                RF & Cellular Networks · Fiber Optic Communications · Computer Networking · Embedded & IoT Systems
               </span>
             </Gsap.div>
 
@@ -345,11 +345,11 @@ const AboutSection = memo(function AboutSection() {
               className="space-y-4 text-[15px] md:text-[15.5px] font-light text-black/60 leading-[1.88] max-w-[580px]"
             >
               <p>
-                I'm <strong className="text-black font-semibold">Ghibran</strong>, a Telecommunications Engineer passionate about communication systems, embedded technology, and intelligent engineering solutions. I enjoy designing practical systems by integrating hardware, software, and communication technologies to solve real-world engineering challenges.
+                I'm <strong className="text-black font-semibold">Ghibran</strong>, a Telecommunications Engineering graduate passionate about communication systems, embedded technology, and practical engineering solutions. I enjoy creating systems that integrate hardware, software, and communication technologies to address real-world engineering challenges.
               </p>
 
               <p>
-                My experience includes telecommunication projects, embedded system development, IoT applications, web-based monitoring platforms, and technical troubleshooting through internships, academic research, engineering competitions, and organizational activities. I am committed to continuous learning and developing reliable engineering solutions with real-world impact.
+                My experience spans telecommunications projects, RF and cellular networks, fiber optic infrastructure, computer networking, embedded systems, and IoT applications through industry internships, academic projects, professional training, and organizational leadership. I am committed to continuous learning and developing reliable engineering solutions that create meaningful real-world impact.
               </p>
             </Gsap.div>
 
