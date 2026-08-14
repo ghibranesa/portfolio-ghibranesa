@@ -1,4 +1,4 @@
-# MotionFolio
+# MotionFolio - GHIBRAN ESA ANUGRAH
 
 > Open-source animated portfolio starter for modern developers.
 
