@@ -71,10 +71,10 @@ export const PROJECT_DETAILS_DATA = {
 
   "water-management": {
     title: "Water Resource Monitoring & Billing Management System",
-    category: "Web Application / Smart Water Management System",
+    category: "Web Application / Information System",
     year: "2025",
     overview:
-      "A web-based water management information system that digitalizes water meter recording, automates billing calculations, and monitors water distribution in real time. The platform improves operational efficiency while reducing billing errors and water losses.",
+      "A web-based water management system designed to digitalize water meter logging, automate customer tariff and billing calculations, and manage regional consumption data efficiently through a centralized database.",
     galleryImages: [
       "/images/projects/water-management/doc-1.webp",
       "/images/projects/water-management/doc-2.webp",
@@ -82,20 +82,18 @@ export const PROJECT_DETAILS_DATA = {
       "/images/projects/water-management/doc-4.webp",
     ],
     features: [
-      "Digital water meter logging",
-      "Automated billing calculation",
-      "Real-time monitoring dashboard",
-      "Water usage analytics",
-      "Customer management system",
-      "Regional management",
-      "Leak detection and anomaly alerts",
-      "Historical consumption records",
+      "Digital water meter reading & logging",
+      "Automated tariff & billing calculation",
+      "Customer data & regional management",
+      "Role-based user access control (RBAC)",
+      "Consumption history & payment tracking",
+      "Financial & water usage reporting",
     ],
     impact: [
-      "Reduced Non-Revenue Water (NRW) by 25–35%",
-      "Billing process shortened from days to seconds",
-      "99% data accuracy",
-      "Faster payment collection process",
+      "Automated manual billing calculations to reduce human error",
+      "Streamlined customer data and regional water usage record-keeping",
+      "Centralized payment tracking and historical consumption reports",
+      "Improved administrative efficiency for water billing operations",
     ],
     stack: [
       // Frontend

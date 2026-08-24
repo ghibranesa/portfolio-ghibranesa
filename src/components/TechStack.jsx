@@ -19,14 +19,12 @@ import {
     SiAutocad,
     SiSketchup,
     SiEasyeda,
-    SiRaspberrypi,
     SiMqtt,
     SiHuawei,
     SiMikrotik,
     SiProteus,
     SiWireshark,
     SiFortinet,
-    SiJunipernetworks,
     SiOpenvpn,
     SiWireguard,
     SiXampp,
@@ -45,7 +43,6 @@ import {
 
 // Lucide icons for generic/non-branded concepts
 import {
-    Activity,
     Sprout,
     Orbit,
     ScanEye,
@@ -60,7 +57,6 @@ const stackCategories = [
         description: "Network infrastructure & communication systems",
         skills: [
             { name: "Cisco", icon: SiCisco },
-            { name: "Juniper", icon: SiJunipernetworks },
             { name: "MikroTik / The Dude", icon: SiMikrotik },
             { name: "Huawei", icon: SiHuawei },
             { name: "Fortinet", icon: SiFortinet },
@@ -81,7 +77,6 @@ const stackCategories = [
         skills: [
             { name: "ESP32", icon: SiEspressif },
             { name: "Arduino", icon: SiArduino },
-            { name: "Raspberry Pi", icon: SiRaspberrypi },
             { name: "C", icon: SiC },
             { name: "C++", icon: SiCplusplus },
             { name: "MQTT", icon: SiMqtt },
@@ -121,7 +116,6 @@ const stackCategories = [
             { name: "Proteus", icon: SiProteus },
             { name: "GNU Octave", icon: SiOctave },
             { name: "CST Studio", icon: SiDassaultsystemes },
-            { name: "Keysight ADS", icon: Activity },
         ]
     }
 ];
