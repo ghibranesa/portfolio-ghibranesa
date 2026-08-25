@@ -39,7 +39,6 @@ import {
     SiNodered,
     SiDassaultsystemes,
     SiNodedotjs,
-    SiMicrosoft,
 } from "react-icons/si";
 
 // Lucide icons for generic/non-branded concepts
@@ -117,7 +116,7 @@ const stackCategories = [
             { name: "Proteus", icon: SiProteus },
             { name: "GNU Octave", icon: SiOctave },
             { name: "CST Studio", icon: SiDassaultsystemes },
-            { name: "Microsoft Office", icon: SiMicrosoft },
+            { name: "Microsoft Office", icon: SiOctave },
         ]
     }
 ];
