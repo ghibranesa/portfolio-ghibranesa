@@ -116,7 +116,6 @@ const stackCategories = [
             { name: "Proteus", icon: SiProteus },
             { name: "GNU Octave", icon: SiOctave },
             { name: "CST Studio", icon: SiDassaultsystemes },
-            { name: "Microsoft Office", icon: SiOctave },
         ]
     }
 ];
