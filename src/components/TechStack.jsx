@@ -166,7 +166,7 @@ const TechStack = () => {
                             className="mt-6 md:mt-8 font-sans text-sm md:text-base text-white/55 leading-7 md:leading-8 max-w-sm"
                         >
                             <p>
-                                A collection of programming languages, networking platforms, embedded technologies, and engineering software used to design, develop, and deploy reliable telecommunication and IoT solutions.
+                                Networking platforms, embedded systems, and engineering software — supported by programming capabilities — to design, integrate, and deploy reliable telecommunication and IoT solutions.
                             </p>
                         </Gsap.div>
                     </div>
