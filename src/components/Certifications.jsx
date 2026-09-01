@@ -9,6 +9,40 @@ import { Plus, Calendar, Building2, Award, ExternalLink, BadgeCheck } from 'luci
 
 const certifications = [
   {
+    name: 'NSE 2 – Introduction to the Next Generation Firewall',
+    logo: '/images/skills/fortinet.png',
+    issuer: 'Fortinet',
+    program: 'Fortinet Training Institute',
+    period: '2026',
+    credentialId: null,
+    impact: 'Vendor-specific certification covering Next-Generation Firewall architectures, SD-WAN fundamentals, and the Fortinet Security Fabric ecosystem for integrated, centralized network defense.',
+    tags: ['Fortinet', 'NGFW', 'SD-WAN', 'Security Fabric', 'Deep Packet Inspection', 'Cybersecurity'],
+    description: [
+      'Analyzed Next-Generation Firewall (NGFW) architectures, deep packet inspection capabilities, and modern threat prevention features including application control and intrusion prevention systems (IPS).',
+      'Explored SD-WAN fundamentals, intelligent traffic steering, and WAN edge security integration within modern enterprise networks.',
+      'Evaluated the Fortinet Security Fabric ecosystem for centralized visibility, threat intelligence sharing, and integrated network defense across distributed environments.',
+    ],
+    documentUrl: 'https://drive.google.com/file/d/15Zm0Q4Zhwwq3PACvprq1yFmXKk9bvtg4/view?usp=drive_link',
+    documentLabel: 'View Certificate',
+  },
+  {
+    name: 'NSE 1 – Cybersecurity and Cloud Fundamentals',
+    logo: '/images/skills/fortinet.png',
+    issuer: 'Fortinet',
+    program: 'Fortinet Training Institute',
+    period: '2026',
+    credentialId: null,
+    impact: 'Foundational cybersecurity certification covering core threat landscapes, cloud computing security models, and human-centric risk mitigation strategies including social engineering and data protection.',
+    tags: ['Fortinet', 'Cybersecurity', 'Cloud Security', 'IaaS', 'PaaS', 'SaaS', 'Social Engineering'],
+    description: [
+      'Identified core cybersecurity threats, attack vectors, and fundamental principles of information security awareness in today\'s evolving digital landscape.',
+      'Examined cloud computing models (IaaS, PaaS, SaaS) and baseline security considerations for cloud environments, including shared responsibility and access control.',
+      'Evaluated social engineering techniques, phishing mechanics, and data protection practices to mitigate human-centric risks and strengthen organizational security posture.',
+    ],
+    documentUrl: 'https://drive.google.com/file/d/1RKK04EkZWimYeVjobJjt0v3XuLUH50IP/view?usp=drive_link',
+    documentLabel: 'View Certificate',
+  },
+  {
     name: 'Radio Frequency Engineer',
     logo: '/images/skills/blsdm-komdigi.png',
     issuer: 'Balai Pelatihan Sumber Daya Manusia Komunikasi dan Digital (BLSDM Komdigi) Yogyakarta',
