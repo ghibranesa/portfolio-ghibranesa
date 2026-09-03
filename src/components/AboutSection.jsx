@@ -12,6 +12,35 @@ const achievements = [
     icon: Trophy,
     rank: 'National',
     category: 'Essay',
+    title: '1st Place',
+    event: 'Sultan Agung Literacy Fest Essay Competition 2025',
+    year: 'October 2025',
+    organizer: 'Badan Eksekutif Mahasiswa Universitas Sultan Agung',
+    description: 'Achieved 1st Place in a national literacy essay competition organized by the Student Executive Board of Universitas Sultan Agung.',
+    longDescription: '',
+    photos: [
+      { src: '/achievements/saliterafest-2025/foto5.jpg', alt: 'SALITERAFEST 2025 - Award Certificate' },
+      { src: '/achievements/saliterafest-2025/foto6.jpeg', alt: 'SALITERAFEST 2025 - Team Documentation' },
+    ],
+  },
+  {
+    icon: Trophy,
+    rank: 'Regional',
+    category: 'Technology',
+    title: '2nd Place',
+    event: 'LKS Kab. Tegal — Information Network Cabling 2022',
+    year: 'February 2022',
+    organizer: 'MKKS SMK Kabupaten Tegal',
+    description: 'Achieved 2nd Place in the Student Competency Competition (LKS) of Tegal Regency in the Information Network Cabling category, organized by the SMK Principals Working Group of Tegal Regency.',
+    longDescription: '',
+    photos: [
+      { src: '/achievements/lkstegal-2022/foto11.jpg', alt: 'LKS KAB. TEGAL 2022 - Award Certificate' },
+    ],
+  },
+  {
+    icon: Trophy,
+    rank: 'National',
+    category: 'Essay',
     title: 'Silver Medal & Bronze Medal',
     event: 'Pekan Essay Nasional (PENA) 2',
     year: 'May 2026',
@@ -23,21 +52,6 @@ const achievements = [
       { src: '/achievements/pena-2/foto2.jpg', alt: 'PENA 2 - Award Certificate' },
       { src: '/achievements/pena-2/foto3.jpeg', alt: 'PENA 2 - Documentation' },
       { src: '/achievements/pena-2/foto4.jpeg', alt: 'PENA 2 - Documentation' },
-    ],
-  },
-  {
-    icon: Trophy,
-    rank: 'National',
-    category: 'Essay',
-    title: '1st Place',
-    event: 'Sultan Agung Literacy Fest Essay Competition 2025',
-    year: 'October 2025',
-    organizer: 'Badan Eksekutif Mahasiswa Universitas Sultan Agung',
-    description: 'Achieved 1st Place in a national literacy essay competition organized by the Student Executive Board of Universitas Sultan Agung.',
-    longDescription: '',
-    photos: [
-      { src: '/achievements/saliterafest-2025/foto5.jpg', alt: 'SALITERAFEST 2025 - Award Certificate' },
-      { src: '/achievements/saliterafest-2025/foto6.jpeg', alt: 'SALITERAFEST 2025 - Team Documentation' },
     ],
   },
   {
@@ -68,20 +82,6 @@ const achievements = [
     photos: [
       { src: '/achievements/fkmpifairessaycomp-2025/foto9.jpg', alt: 'FKMPI FAIR 2025 - Award Certificate' },
       { src: '/achievements/fkmpifairessaycomp-2025/foto10.jpeg', alt: 'FKMPI FAIR 2025 - Team Documentation' },
-    ],
-  },
-  {
-    icon: Trophy,
-    rank: 'Regional',
-    category: 'Technology',
-    title: '2nd Place',
-    event: 'LKS Kab. Tegal — Information Network Cabling 2022',
-    year: 'February 2022',
-    organizer: 'MKKS SMK Kabupaten Tegal',
-    description: 'Achieved 2nd Place in the Student Competency Competition (LKS) of Tegal Regency in the Information Network Cabling category, organized by the SMK Principals Working Group of Tegal Regency.',
-    longDescription: '',
-    photos: [
-      { src: '/achievements/lkstegal-2022/foto11.jpg', alt: 'LKS KAB. TEGAL 2022 - Award Certificate' },
     ],
   },
 ];
@@ -290,6 +290,31 @@ const AboutSection = memo(function AboutSection() {
                   <p className="font-mono text-[8px] uppercase tracking-[0.08em] text-black/32 mt-1.5 leading-tight whitespace-pre-line">{stat.label}</p>
                 </div>
               ))}
+            </div>
+
+            {/* Academic Scores */}
+            <div className="mt-2.5 grid grid-cols-2 gap-2.5">
+              {/* GPA */}
+              <div className="bg-white border border-black/[0.08] rounded-[3px] py-3.5 px-4">
+                <p className="font-mono text-[9px] uppercase tracking-[0.14em] text-black/32 mb-1.5">GPA</p>
+                <p className="font-black text-[22px] text-black leading-none tabular-nums">3.67</p>
+                <p className="font-mono text-[8px] uppercase tracking-[0.08em] text-black/32 mt-1.5 leading-tight">Academic Record</p>
+              </div>
+
+              {/* TEPPS */}
+              <div className="bg-white border border-black/[0.08] rounded-[3px] py-3.5 px-4">
+                <p className="font-mono text-[9px] uppercase tracking-[0.14em] text-black/32 mb-1.5">TEPPS Score</p>
+                <p className="font-black text-[22px] text-black leading-none tabular-nums">660</p>
+                <div className="mt-1.5 flex items-center gap-2">
+                  <span className="font-mono text-[8px] uppercase tracking-[0.06em] text-black/32">
+                    L <span className="font-bold text-black/50">400</span>
+                  </span>
+                  <span className="text-black/20 text-[10px]">·</span>
+                  <span className="font-mono text-[8px] uppercase tracking-[0.06em] text-black/32">
+                    R <span className="font-bold text-black/50">260</span>
+                  </span>
+                </div>
+              </div>
             </div>
           </Gsap.div>
 
