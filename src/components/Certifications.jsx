@@ -9,6 +9,23 @@ import { Plus, Calendar, Building2, Award, ExternalLink, BadgeCheck } from 'luci
 
 const certifications = [
   {
+    name: 'NSE 3 – FortiGate Operator',
+    logo: '/images/skills/fortinet.png',
+    issuer: 'Fortinet',
+    program: 'Fortinet Training Institute',
+    period: '2026',
+    credentialId: null,
+    impact: 'Hands-on operational certification focused on FortiGate administration, firewall policy enforcement, VPN deployment, and security profile configuration for real-world network defense.',
+    tags: ['Fortinet', 'FortiGate', 'Firewall Policy', 'VPN', 'IPS', 'Web Filtering', 'SSL Inspection'],
+    description: [
+      'Managed FortiGate operational workflows, system configurations, administrative access controls, and firmware maintenance procedures for sustained network security operations.',
+      'Implemented core firewall policies, NAT rules, user authentication protocols, and secure VPN connections to enforce operational network defense across enterprise environments.',
+      'Configured Security Profiles including Antivirus, Web Filtering, IPS, and SSL inspection alongside real-time system monitoring and log analysis for proactive threat management.',
+    ],
+    documentUrl: 'https://drive.google.com/file/d/1TXd-uULuHT4dHUpeKWGu4Z3AD5okwV9e/view?usp=drive_link',
+    documentLabel: 'View Certificate',
+  },
+  {
     name: 'NSE 2 – Introduction to the Next Generation Firewall',
     logo: '/images/skills/fortinet.png',
     issuer: 'Fortinet',
@@ -22,7 +39,7 @@ const certifications = [
       'Explored SD-WAN fundamentals, intelligent traffic steering, and WAN edge security integration within modern enterprise networks.',
       'Evaluated the Fortinet Security Fabric ecosystem for centralized visibility, threat intelligence sharing, and integrated network defense across distributed environments.',
     ],
-    documentUrl: 'https://drive.google.com/file/d/15Zm0Q4Zhwwq3PACvprq1yFmXKk9bvtg4/view?usp=drive_link',
+    documentUrl: '#',
     documentLabel: 'View Certificate',
   },
   {
@@ -39,7 +56,7 @@ const certifications = [
       'Examined cloud computing models (IaaS, PaaS, SaaS) and baseline security considerations for cloud environments, including shared responsibility and access control.',
       'Evaluated social engineering techniques, phishing mechanics, and data protection practices to mitigate human-centric risks and strengthen organizational security posture.',
     ],
-    documentUrl: 'https://drive.google.com/file/d/1RKK04EkZWimYeVjobJjt0v3XuLUH50IP/view?usp=drive_link',
+    documentUrl: '#',
     documentLabel: 'View Certificate',
   },
   {
