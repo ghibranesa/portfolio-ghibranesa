@@ -97,8 +97,8 @@ const certifications = [
   {
     name: 'CCNA: Switching, Routing and Wireless Essentials',
     logo: '/images/skills/cisco.png',
-    issuer: 'Cisco Networking Academy',
-    program: null,
+    issuer: 'Cisco',
+    program: 'Cisco Networking Academy',
     period: 2025,
     credentialId: null,
     impact: 'Industry-standard Cisco certification covering advanced switching, routing protocols, and wireless LAN configuration and management.',
@@ -114,8 +114,8 @@ const certifications = [
   {
     name: 'CCNA: Introduction to Networks',
     logo: '/images/skills/cisco.png',
-    issuer: 'Cisco Networking Academy',
-    program: null,
+    issuer: 'Cisco',
+    program: 'Cisco Networking Academy',
     period: 2024,
     credentialId: null,
     impact: 'Foundational Cisco certification validating knowledge of networking concepts, IPv4/IPv6 addressing, and Ethernet communication principles.',
@@ -131,8 +131,8 @@ const certifications = [
   {
     name: 'Offshore Oil and Gas Processing',
     logo: '/images/skills/engineering-academy.png',
-    issuer: 'Engineering Academy',
-    program: 'Class – Free Class',
+    issuer: 'Engineering Academy by Anak Teknik Indonesia',
+    program: 'Free Class',
     period: '2024',
     credentialId: 'FreeClass/1905/2024/311',
     impact: 'Specialized training in offshore oil and gas processing systems, covering production processes, equipment, and safety standards.',
