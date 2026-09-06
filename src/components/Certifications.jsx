@@ -9,6 +9,23 @@ import { Plus, Calendar, Building2, Award, ExternalLink, BadgeCheck } from 'luci
 
 const certifications = [
   {
+    name: 'Introduction to IoT and Digital Transformation',
+    logo: '/images/skills/cisco.png',
+    issuer: 'Cisco',
+    program: 'Cisco Networking Academy',
+    period: '2026',
+    credentialId: null,
+    impact: 'Certification covering the convergence of IoT, AI, big data, and cloud computing as foundational drivers of enterprise digital transformation — with hands-on exposure to smart device simulation and OT/IT security.',
+    tags: ['Cisco', 'IoT', 'Digital Transformation', 'Packet Tracer', 'OT Security', 'AI', 'Cloud', 'Big Data'],
+    description: [
+      'Analyzed the intersection of IoT, artificial intelligence, big data, and cloud computing driving modern enterprise digital transformation and the evolution of connected infrastructure.',
+      'Configured basic IoT automation scenarios and simulated smart device connectivity using Cisco Packet Tracer to replicate real-world sensor and actuator network behavior.',
+      'Evaluated IoT security vulnerabilities, threat vectors, and mitigation strategies across operational technology (OT) and IT networks to address the expanding attack surface of connected systems.',
+    ],
+    documentUrl: 'https://drive.google.com/file/d/1B8d-P3SYYKO3oNNtmhq8xeefyBf_X43q/view?usp=drive_link',
+    documentLabel: 'View Certificate',
+  },
+  {
     name: 'NSE 3 – FortiGate Operator',
     logo: '/images/skills/fortinet.png',
     issuer: 'Fortinet',
@@ -22,7 +39,7 @@ const certifications = [
       'Implemented core firewall policies, NAT rules, user authentication protocols, and secure VPN connections to enforce operational network defense across enterprise environments.',
       'Configured Security Profiles including Antivirus, Web Filtering, IPS, and SSL inspection alongside real-time system monitoring and log analysis for proactive threat management.',
     ],
-    documentUrl: 'https://drive.google.com/file/d/1TXd-uULuHT4dHUpeKWGu4Z3AD5okwV9e/view?usp=drive_link',
+    documentUrl: '#',
     documentLabel: 'View Certificate',
   },
   {
@@ -185,6 +202,15 @@ const CertificationItem = ({ cert, isExpanded, onToggle }) => {
                     {cert.period}
                   </span>
                 )}
+                {cert.inProgress && (
+                  <span className="font-mono text-[9px] md:text-[10px] uppercase tracking-[0.16em] text-lime-700 border border-lime-400/50 bg-lime-50 px-2.5 py-1 rounded-[2px] inline-flex items-center gap-1.5">
+                    <span className="relative flex h-2 w-2 shrink-0">
+                      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-lime-500 opacity-60" />
+                      <span className="relative inline-flex rounded-full h-2 w-2 bg-lime-500" />
+                    </span>
+                    In Progress
+                  </span>
+                )}
                 {cert.credentialId && (
                   <span className="font-mono text-[9px] md:text-[10px] uppercase tracking-[0.16em] text-black/38 border border-black/[0.07] px-2.5 py-1 rounded-[2px] inline-flex items-center gap-1.5">
                     <BadgeCheck className="w-3 h-3" />
@@ -261,17 +287,24 @@ const CertificationItem = ({ cert, isExpanded, onToggle }) => {
                     ))}
                   </div>
 
-                  <button
-                    type="button"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      if (cert.documentUrl) window.open(cert.documentUrl, '_blank');
-                    }}
-                    className="inline-flex items-center gap-2 font-mono text-[9.5px] md:text-[10px] uppercase tracking-[0.14em] text-black border border-black/20 bg-white hover:bg-black hover:text-white hover:border-black px-3.5 py-2 rounded-[2px] transition-all duration-200 shrink-0"
-                  >
-                    <ExternalLink className="w-3 h-3" />
-                    {cert.documentLabel}
-                  </button>
+                  {cert.inProgress || !cert.documentUrl || cert.documentUrl === '#' ? (
+                    <span className="inline-flex items-center gap-2 font-mono text-[9.5px] md:text-[10px] uppercase tracking-[0.14em] text-black/30 border border-black/[0.1] bg-black/[0.02] px-3.5 py-2 rounded-[2px] shrink-0 cursor-not-allowed select-none">
+                      <ExternalLink className="w-3 h-3" />
+                      {cert.inProgress ? 'Certificate Pending' : cert.documentLabel}
+                    </span>
+                  ) : (
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        window.open(cert.documentUrl, '_blank');
+                      }}
+                      className="inline-flex items-center gap-2 font-mono text-[9.5px] md:text-[10px] uppercase tracking-[0.14em] text-black border border-black/20 bg-white hover:bg-black hover:text-white hover:border-black px-3.5 py-2 rounded-[2px] transition-all duration-200 shrink-0"
+                    >
+                      <ExternalLink className="w-3 h-3" />
+                      {cert.documentLabel}
+                    </button>
+                  )}
                 </div>
               </div>
             </Gsap.div>
