@@ -10,6 +10,31 @@ import { Plus, Calendar, Building2, Sparkles, ArrowUpRight, ExternalLink } from 
 
 const experiences = [
   {
+    company: 'PT Sisindokom Lintasbuana',
+    logo: '/images/organizations/sisindokom.png',
+    role: 'Network Engineer Onsite',
+    period: 'Sep 2026 - Present',
+    impact: 'Deployed onsite at PT Alia Digital Printex / Modinity Group under PT Telekomunikasi Indonesia Internasional (TELIN) project — maintaining high-availability network operations across FortiGate firewalls, MikroTik routers, and multi-WAN infrastructure.',
+    stack: [
+      'FortiGate Firewall',
+      'MikroTik Router',
+      'FortiClient VPN',
+      'Multi-WAN Management',
+      'Traffic Shaping & QoS',
+      'VLAN Segmentation',
+      'ISP Escalation',
+      'Network Monitoring',
+    ],
+    description: [
+      'Managed daily network operations, monitoring, and troubleshooting across FortiGate firewalls and MikroTik routers to maintain high availability across the TELIN project site at PT Alia Digital Printex / Modinity Group.',
+      'Handled multi-WAN oversight, traffic shaping, and QoS optimization to prioritize critical business applications and ensure consistent bandwidth allocation across all network segments.',
+      'Managed formal vendor and ISP escalations for external link or hardware issues, coordinating with service providers to ensure rapid incident resolution and minimal downtime.',
+      'Maintained local network segmentation, VLAN performance, and secure remote access via FortiClient VPN to uphold network security and operational integrity across all site activities.',
+    ],
+    documentUrl: '',
+    documentLabel: 'View Certificate',
+  },
+  {
     company: 'PT Telkom Akses Service Area Tegal',
     logo: '/images/organizations/telkom-akses-tegal.png',
     role: 'Intern Staff',
