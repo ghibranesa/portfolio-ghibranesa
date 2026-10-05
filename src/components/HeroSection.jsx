@@ -31,7 +31,7 @@ const LocationTimeBadge = () => {
   return (
     <div className="flex items-center justify-center gap-3 sm:gap-5 font-mono text-xs uppercase tracking-[0.15em] text-black/50">
       <div className="flex items-center gap-2">
-        <span className="font-bold text-black/70">Based in Semarang, Indonesia</span>
+        <span className="font-bold text-black/70">Based in Jakarta, Indonesia</span>
       </div>
       <div className="w-[1px] h-3 bg-black/15" />
       <div className="flex items-center gap-1.5 tabular-nums">
