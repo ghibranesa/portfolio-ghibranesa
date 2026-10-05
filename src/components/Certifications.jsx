@@ -39,7 +39,7 @@ const certifications = [
       'Implemented core firewall policies, NAT rules, user authentication protocols, and secure VPN connections to enforce operational network defense across enterprise environments.',
       'Configured Security Profiles including Antivirus, Web Filtering, IPS, and SSL inspection alongside real-time system monitoring and log analysis for proactive threat management.',
     ],
-    documentUrl: '#',
+    documentUrl: 'https://drive.google.com/file/d/1TXd-uULuHT4dHUpeKWGu4Z3AD5okwV9e/view?usp=drive_link',
     documentLabel: 'View Certificate',
   },
   {
@@ -56,7 +56,7 @@ const certifications = [
       'Explored SD-WAN fundamentals, intelligent traffic steering, and WAN edge security integration within modern enterprise networks.',
       'Evaluated the Fortinet Security Fabric ecosystem for centralized visibility, threat intelligence sharing, and integrated network defense across distributed environments.',
     ],
-    documentUrl: '#',
+    documentUrl: 'https://drive.google.com/file/d/15Zm0Q4Zhwwq3PACvprq1yFmXKk9bvtg4/view?usp=drive_link',
     documentLabel: 'View Certificate',
   },
   {
@@ -73,7 +73,7 @@ const certifications = [
       'Examined cloud computing models (IaaS, PaaS, SaaS) and baseline security considerations for cloud environments, including shared responsibility and access control.',
       'Evaluated social engineering techniques, phishing mechanics, and data protection practices to mitigate human-centric risks and strengthen organizational security posture.',
     ],
-    documentUrl: '#',
+    documentUrl: 'https://drive.google.com/file/d/1RKK04EkZWimYeVjobJjt0v3XuLUH50IP/view?usp=drive_link',
     documentLabel: 'View Certificate',
   },
   {
