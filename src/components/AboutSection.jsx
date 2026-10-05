@@ -303,7 +303,7 @@ const AboutSection = memo(function AboutSection() {
 
               {/* TEPPS */}
               <div className="bg-white border border-black/[0.08] rounded-[3px] py-3.5 px-4">
-                <p className="font-mono text-[9px] uppercase tracking-[0.14em] text-black/32 mb-1.5">TEOIC TEPPS Score 2026</p>
+                <p className="font-mono text-[9px] uppercase tracking-[0.14em] text-black/32 mb-1.5">TOEIC TEPPS Score 2026</p>
                 <p className="font-black text-[22px] text-black leading-none tabular-nums">660</p>
                 <div className="mt-1.5 flex items-center gap-2">
                   <span className="font-mono text-[8px] uppercase tracking-[0.06em] text-black/32">
