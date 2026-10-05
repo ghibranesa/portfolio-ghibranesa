@@ -277,7 +277,7 @@ const AboutSection = memo(function AboutSection() {
                 <p className="font-mono text-[9px] uppercase tracking-[0.14em] text-black/32 mb-1.5">Location</p>
                 <div className="flex items-center gap-1.5">
                   <MapPin size={11} className="text-black/38 shrink-0" />
-                  <span className="text-[13px] font-bold text-black">Semarang, Indonesia</span>
+                  <span className="text-[13px] font-bold text-black">Jakarta, Indonesia</span>
                 </div>
               </div>
             </div>
