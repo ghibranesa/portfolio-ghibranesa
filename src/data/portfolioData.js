@@ -20,7 +20,7 @@ export const PORTFOLIO_DATA = {
         name: "Ghibran",
         role: "Telecommunications Engineer",
         bio: "Passionate about communication systems, embedded technology, and intelligent engineering solutions. Designing practical systems by integrating hardware, software, and communication technologies to solve real-world engineering challenges.",
-        location: "Semarang, Indonesia",
+        location: "Jakarta, Indonesia",
         email: "ghibranesa71576@gmail.com",
         socials: {
             github: "ghibranesa",
