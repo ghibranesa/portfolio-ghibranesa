@@ -269,7 +269,7 @@ const AboutSection = memo(function AboutSection() {
                 <p className="font-mono text-[9px] uppercase tracking-[0.14em] text-black/32 mb-1.5">Status</p>
                 <div className="flex items-center gap-2">
                   <span className="w-[6px] h-[6px] rounded-full bg-lime-500 shrink-0" />
-                  <span className="text-[13px] font-bold text-black">Open to Opportunities</span>
+                  <span className="text-[13px] font-bold text-black">Currently Employed</span>
                 </div>
               </div>
               <div className="bg-white border border-black/[0.08] rounded-[3px] py-3.5 px-4">
@@ -332,7 +332,7 @@ const AboutSection = memo(function AboutSection() {
             >
               {/* Eyebrow */}
               <p className="font-mono text-[9px] uppercase tracking-[0.28em] text-black/30 mb-5">
-                Based in Indonesia · Open to Opportunities
+                Based in Indonesia - Currently Employed
               </p>
 
               {/* Main title */}
