@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#1a1a1a"/>
+  <rect x="2" y="2" width="796" height="596" fill="none" stroke="#333" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="400" y="280" text-anchor="middle" fill="#555" font-family="monospace" font-size="14">📷 Cover Image</text>
+  <text x="400" y="310" text-anchor="middle" fill="#444" font-family="monospace" font-size="11">Replace with your image</text>
+</svg>
