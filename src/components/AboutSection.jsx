@@ -87,9 +87,9 @@ const achievements = [
 ];
 
 const STATS = [
-  { value: 'TELCO', label: 'Telco\nEngineering' },
-  { value: 'IoT', label: 'Smart\nSystems' },
-  { value: 'R&D', label: 'Research &\nDevelopment' },
+  { value: 'NET', label: 'Enterprise\nNetworking' },
+  { value: 'SEC', label: 'Network\nSecurity' },
+  { value: 'OPS', label: 'Network\nOperations' },
 ];
 
 const CAPABILITIES = [
