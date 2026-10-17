@@ -14,7 +14,7 @@ const certifications = [
     issuer: 'Fortinet',
     program: 'Fortinet Training Institute',
     period: '2026',
-    credentialId: null,
+    credentialId: '5614961247GE 0224179619GE 5110630435GE',
     impact: 'Progressive Fortinet certification track covering cybersecurity fundamentals, Next-Generation Firewall architectures, SD-WAN, the Fortinet Security Fabric ecosystem, and hands-on FortiGate administration for real-world enterprise network defense.',
     tags: ['Fortinet', 'FortiGate', 'NGFW', 'SD-WAN', 'Security Fabric', 'Firewall Policy', 'VPN', 'IPS', 'Web Filtering', 'SSL Inspection', 'Cybersecurity', 'Cloud Security'],
     description: [
