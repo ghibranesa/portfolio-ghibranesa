@@ -9,7 +9,7 @@ import { Plus, Calendar, Building2, Award, ExternalLink, BadgeCheck } from 'luci
 
 const certifications = [
   {
-    name: 'Fortinet NSE 1, 2, 3',
+    name: 'Fortinet NSE 1, 2, & 3',
     logo: '/images/skills/fortinet.png',
     issuer: 'Fortinet',
     program: 'Fortinet Training Institute',
@@ -22,11 +22,11 @@ const certifications = [
       'Analyzed Next-Generation Firewall (NGFW) architectures, deep packet inspection, SD-WAN fundamentals, and the Fortinet Security Fabric ecosystem for centralized visibility and integrated network defense across distributed environments.',
       'Managed FortiGate operational workflows, firewall policies, NAT rules, and secure VPN connections, and configured Security Profiles including Antivirus, Web Filtering, IPS, and SSL inspection for proactive threat management.',
     ],
-    documentUrl: '',
+    documentUrl: 'https://drive.google.com/file/d/1FFuo49i89lD2GXNPs2gB-GAIHK5FF3v3/view?usp=drive_link',
     documentLabel: 'View Certificate',
   },
   {
-    name: 'Cisco NetAcad ITN & SRWE',
+    name: 'CCNA NetAcad ITN & SRWE',
     logo: '/images/skills/cisco.png',
     issuer: 'Cisco',
     program: 'Cisco Networking Academy',
@@ -39,7 +39,7 @@ const certifications = [
       'Gained in-depth knowledge of VLANs, inter-VLAN routing, STP, EtherChannel, DHCPv4/v6, wireless LAN security protocols, and redundancy protocols such as HSRP.',
       'Covered scalable network design using static and dynamic routing with OSPF, and wireless controller and access point deployment.',
     ],
-    documentUrl: '',
+    documentUrl: 'https://drive.google.com/file/d/1BHA-BIEW-HJN-JhqGXXRFLJXY_VRflHQ/view?usp=sharing',
     documentLabel: 'View Certificate',
   },
   {
