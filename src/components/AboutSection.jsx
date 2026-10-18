@@ -291,10 +291,10 @@ const AboutSection = memo(function AboutSection() {
               ))}
             </div>
 
-            {/* Education + TEPPS */}
-            <div className="mt-2.5 grid grid-cols-2 gap-2.5">
+            {/* Education + Language Scores */}
+            <div className="mt-2.5 grid grid-cols-1 sm:grid-cols-2 gap-2.5">
               {/* Education */}
-              <div className="bg-white border border-black/[0.08] rounded-[3px] py-3.5 px-4">
+              <div className="bg-white border border-black/[0.08] rounded-[3px] py-3.5 px-4 sm:col-span-2">
                 <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-black/32 mb-2">Education</p>
                 <div className="flex items-center gap-2.5 mb-2">
                   <img
@@ -311,19 +311,18 @@ const AboutSection = memo(function AboutSection() {
                 </div>
               </div>
 
-              {/* TEPPS */}
+              {/* TOEIC */}
               <div className="bg-white border border-black/[0.08] rounded-[3px] py-3.5 px-4">
-                <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-black/32 mb-1.5">TOEIC TEPPS 2026</p>
+                <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-black/32 mb-1.5">TOEIC 2026</p>
                 <p className="font-black text-[26px] text-black leading-none tabular-nums">660</p>
-                <div className="mt-2 flex items-center gap-2">
-                  <span className="font-mono text-[10px] text-black/40">
-                    L <span className="font-bold text-black/60">400</span>
-                  </span>
-                  <span className="text-black/20">·</span>
-                  <span className="font-mono text-[10px] text-black/40">
-                    R <span className="font-bold text-black/60">260</span>
-                  </span>
-                </div>
+                <p className="font-mono text-[10px] text-black/40 mt-2">Total Score</p>
+              </div>
+
+              {/* TOEFL */}
+              <div className="bg-white border border-black/[0.08] rounded-[3px] py-3.5 px-4">
+                <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-black/32 mb-1.5">TOEFL 2023</p>
+                <p className="font-black text-[26px] text-black leading-none tabular-nums">553</p>
+                <p className="font-mono text-[10px] text-black/40 mt-2">Total Score</p>
               </div>
             </div>
           </Gsap.div>
