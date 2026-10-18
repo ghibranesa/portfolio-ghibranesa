@@ -314,15 +314,25 @@ const AboutSection = memo(function AboutSection() {
               {/* TOEIC */}
               <div className="bg-white border border-black/[0.08] rounded-[3px] py-3.5 px-4">
                 <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-black/32 mb-1.5">TOEIC 2026</p>
-                <p className="font-black text-[26px] text-black leading-none tabular-nums">660</p>
-                <p className="font-mono text-[10px] text-black/40 mt-2">Total Score</p>
+                <p className="font-black text-[26px] text-black leading-none tabular-nums mb-2">660</p>
+                <div className="flex items-center gap-3">
+                  <span className="font-mono text-[10px] text-black/40">L <span className="font-bold text-black/60">400</span></span>
+                  <span className="text-black/20">·</span>
+                  <span className="font-mono text-[10px] text-black/40">R <span className="font-bold text-black/60">260</span></span>
+                </div>
               </div>
 
               {/* TOEFL */}
               <div className="bg-white border border-black/[0.08] rounded-[3px] py-3.5 px-4">
                 <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-black/32 mb-1.5">TOEFL 2023</p>
-                <p className="font-black text-[26px] text-black leading-none tabular-nums">553</p>
-                <p className="font-mono text-[10px] text-black/40 mt-2">Total Score</p>
+                <p className="font-black text-[26px] text-black leading-none tabular-nums mb-2">553</p>
+                <div className="flex items-center gap-2">
+                  <span className="font-mono text-[10px] text-black/40">L <span className="font-bold text-black/60">52</span></span>
+                  <span className="text-black/20">·</span>
+                  <span className="font-mono text-[10px] text-black/40">R <span className="font-bold text-black/60">51</span></span>
+                  <span className="text-black/20">·</span>
+                  <span className="font-mono text-[10px] text-black/40">W <span className="font-bold text-black/60">63</span></span>
+                </div>
               </div>
             </div>
           </Gsap.div>
