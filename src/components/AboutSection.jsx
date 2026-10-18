@@ -291,27 +291,24 @@ const AboutSection = memo(function AboutSection() {
               ))}
             </div>
 
-            {/* Academic Scores */}
-            <div className="mt-2.5 grid grid-cols-2 gap-2.5">
-              {/* GPA */}
+            {/* Education */}
+            <div className="mt-2.5 grid grid-cols-1 gap-2.5">
               <div className="bg-white border border-black/[0.08] rounded-[3px] py-3.5 px-4">
-                <p className="font-mono text-[9px] uppercase tracking-[0.14em] text-black/32 mb-1.5">GPA</p>
-                <p className="font-black text-[22px] text-black leading-none tabular-nums">3.67</p>
-                <p className="font-mono text-[8px] uppercase tracking-[0.08em] text-black/32 mt-1.5 leading-tight">Academic Record</p>
-              </div>
-
-              {/* TEPPS */}
-              <div className="bg-white border border-black/[0.08] rounded-[3px] py-3.5 px-4">
-                <p className="font-mono text-[9px] uppercase tracking-[0.14em] text-black/32 mb-1.5">TOEIC TEPPS Score 2026</p>
-                <p className="font-black text-[22px] text-black leading-none tabular-nums">660</p>
-                <div className="mt-1.5 flex items-center gap-2">
-                  <span className="font-mono text-[8px] uppercase tracking-[0.06em] text-black/32">
-                    L <span className="font-bold text-black/50">400</span>
-                  </span>
-                  <span className="text-black/20 text-[10px]">·</span>
-                  <span className="font-mono text-[8px] uppercase tracking-[0.06em] text-black/32">
-                    R <span className="font-bold text-black/50">260</span>
-                  </span>
+                <p className="font-mono text-[9px] uppercase tracking-[0.14em] text-black/32 mb-2">Education</p>
+                <div className="flex items-center gap-3">
+                  <img
+                    src="/images/organizations/polines.png"
+                    alt="Politeknik Negeri Semarang"
+                    className="w-8 h-8 object-contain shrink-0"
+                  />
+                  <div className="flex-1 min-w-0">
+                    <p className="font-bold text-[13px] text-black leading-tight">Politeknik Negeri Semarang</p>
+                    <p className="font-mono text-[9px] uppercase tracking-[0.08em] text-black/45 mt-0.5">D3 Teknik Telekomunikasi</p>
+                    <div className="mt-1.5 flex items-center justify-between">
+                      <span className="font-mono text-[8px] uppercase tracking-[0.06em] text-black/32">2023 - 2026</span>
+                      <span className="font-mono text-[8px] uppercase tracking-[0.06em] text-black/32">GPA <span className="font-bold text-black/50">3.67</span></span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
