@@ -262,7 +262,7 @@ const HeroSection = memo(function HeroSection({ isRevealed = true }) {
           </h2>
 
           <p className="font-sans text-base text-black/60 max-w-xl leading-7 mt-2 px-4">
-            Network Engineer with hands-on experience in enterprise network operations, next-generation firewalls, SD-WAN, and hybrid cloud connectivity. Skilled in routing and switching, multi-vendor network management, and network security, backed by a strong Telecommunications Engineering foundation in FTTx, RF, and IoT systems.
+            Network Engineer with expertise in enterprise networks, NGFW, SD-WAN, and hybrid cloud connectivity. Skilled in routing/switching, multi-vendor management, and network security, with a strong Telecommunication Engineering foundation in FTTx, RF, and IoT systems.
           </p>
         </Gsap.div>
 
