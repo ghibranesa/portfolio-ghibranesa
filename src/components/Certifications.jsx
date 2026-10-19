@@ -100,7 +100,7 @@ const certifications = [
     issuer: 'Cisco',
     program: 'Cisco Networking Academy',
     period: '2026',
-    credentialId: null,
+    credentialId: '74ac5432-6b60-41c8-9252-da66493d013e',
     impact: 'Certification covering the convergence of IoT, AI, big data, and cloud computing as foundational drivers of enterprise digital transformation, with hands-on exposure to smart device simulation and OT/IT security.',
     tags: ['Cisco', 'IoT', 'Digital Transformation', 'Packet Tracer', 'OT Security', 'AI', 'Cloud', 'Big Data'],
     description: [
