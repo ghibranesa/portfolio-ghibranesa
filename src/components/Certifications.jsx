@@ -31,7 +31,7 @@ const certifications = [
     issuer: 'Ruijie Networks',
     program: 'Ruijie Academy',
     period: '2026',
-    credentialId: null,
+    credentialId: '202610191208591598 202610191322581440',
     impact: 'Comprehensive network certification track covering enterprise routing and switching foundations, WLAN deployment, network virtualization, and cloud-managed infrastructure using Ruijie Networks solution ecosystem.',
     tags: ['Ruijie Networks', 'RCNA', 'Routing & Switching', 'WLAN', 'OSPF', 'VLAN', 'STP', 'Ruijie Cloud', 'Enterprise Wi-Fi', 'Network Infrastructure'],
     description: [
@@ -39,7 +39,7 @@ const certifications = [
       'Designed and deployed Enterprise WLAN architectures, configuring Access Points, Wireless LAN Controllers (WLC), RF channel optimization, seamless roaming, and WPA2/WPA3 Enterprise authentication.',
       'Managed end-to-end device provisioning, network monitoring, and centralized troubleshooting using Ruijie Command Line Interface (CLI) and Ruijie Cloud management platform.',
     ],
-    documentUrl: '',
+    documentUrl: 'https://drive.google.com/file/d/1r4eLdG4FXTj8UPhIevP6b6W3MZyjPKVW/view?usp=drive_link',
     documentLabel: 'View Certificate',
   },
   {
