@@ -64,7 +64,7 @@ const certifications = [
     logo: '/images/skills/aws.png',
     issuer: 'Amazon Web Services (AWS)',
     program: 'AWS Skill Builder',
-    period: 'Oct 2026',
+    period: '2026',
     credentialId: null,
     impact: 'Hands-on cloud practitioner certification earned through AWS Cloud Quest, a role-playing learning experience that validates practical skills in core AWS services including compute, storage, networking, identity management, and high-availability architecture.',
     tags: ['AWS', 'Cloud Practitioner', 'Amazon VPC', 'AWS IAM', 'EC2', 'Auto Scaling', 'Elastic Load Balancing', 'AWS Storage', 'Cloud Database', 'High Availability'],
