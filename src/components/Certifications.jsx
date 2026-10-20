@@ -72,7 +72,6 @@ const certifications = [
       'Configured Amazon VPC environments including subnets, route tables, internet gateways, and security groups to establish isolated and secure cloud network architectures with hybrid connectivity support.',
       'Implemented AWS Identity and Access Management (IAM) to define users, groups, roles, and policies that enforce least-privilege access control across AWS services and resources.',
       'Deployed and managed AWS compute resources using EC2 and Auto Scaling groups, and configured Elastic Load Balancing to distribute traffic and maintain high availability across fault-tolerant application architectures.',
-      'Utilized AWS cloud storage and database solutions to design scalable, durable, and cost-effective data management layers supporting production workload requirements.',
     ],
     documentUrl: 'https://drive.google.com/file/d/1lB14YJd7nmLbK37us3qPFqX6n_eAhr_K/view?usp=drive_link',
     documentLabel: 'View Certificate',
