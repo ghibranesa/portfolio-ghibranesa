@@ -63,7 +63,7 @@ const certifications = [
     name: 'AWS Cloud Quest: Cloud Practitioner',
     logo: '/images/skills/aws.png',
     issuer: 'Amazon Web Services (AWS)',
-    program: 'AWS Training and Certification',
+    program: 'AWS Skill Builder',
     period: 'Oct 2026',
     credentialId: null,
     impact: 'Hands-on cloud practitioner certification earned through AWS Cloud Quest, a role-playing learning experience that validates practical skills in core AWS services including compute, storage, networking, identity management, and high-availability architecture.',
