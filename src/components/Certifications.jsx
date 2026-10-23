@@ -60,6 +60,23 @@ const certifications = [
     documentLabel: 'View Certificate',
   },
   {
+    name: 'Oracle Cloud Infrastructure Architect Associate',
+    logo: '/images/skills/oracle.png',
+    issuer: 'Oracle',
+    program: 'Oracle University',
+    period: '2026',
+    credentialId: null,
+    impact: 'Professional-level OCI certification validating the ability to design and architect scalable, secure cloud infrastructure using Oracle Cloud Infrastructure services, spanning identity management, virtual networking, compute, storage, and traffic management.',
+    tags: ['Oracle', 'OCI', 'Cloud Architecture', 'IAM', 'VCN', 'Compute', 'Auto Scaling', 'Load Balancer', 'Object Storage', 'Block Storage', 'DNS', 'Cloud Infrastructure'],
+    description: [
+      'Implemented OCI Identity and Access Management (IAM) including Identity Domains, Users, Groups, Policies, Compartments, Dynamic Groups, and Advanced Policies to enforce secure and granular access control across cloud resources.',
+      'Designed and configured OCI Virtual Cloud Networks (VCN) covering IP management, connectivity options, DNS and Traffic Management, Network Command Center services, and Load Balancer deployment for highly available architectures.',
+      'Provisioned and managed OCI Compute instances with Autoscaling configurations, and deployed Object Storage, Block Storage, and File Storage solutions to meet diverse workload performance and durability requirements.',
+    ],
+    documentUrl: 'https://drive.google.com/file/d/1-lM7bQ1y4s1HOCW3btIeHQy0U7ypYYJG/view?usp=drive_link',
+    documentLabel: 'View Certificate',
+  },
+  {
     name: 'AWS Cloud Quest: Cloud Practitioner',
     logo: '/images/skills/aws.png',
     issuer: 'Amazon Web Services (AWS)',
