@@ -42,9 +42,10 @@ import {
     SiGrafana,
 } from "react-icons/si";
 
-const ZabbixIcon = (props) => (
+const ZabbixBoxIcon = (props) => (
     <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
-        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.834 5.94l.013.111.006.185v4.618h-4.32V8.948h2.096l-.014-.144a.428.428 0 0 0-.422-.387H7.766a.43.43 0 0 0-.43.428v6.295h1.956c.21 0 .39.155.424.364l.006.066v.835h-3.69V6.05h11.802zM7.228 17.954h9.553v-2.09h-9.553v2.09z"/>
+        <rect x="3" y="3" width="18" height="18" rx="3" fill="none" stroke="currentColor" strokeWidth="2.2" />
+        <path d="M7 8h10l-10 8h10" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
 );
 
@@ -61,7 +62,7 @@ const stackCategories = [
             { name: "Oracle", icon: (props) => <Icon icon="cib:oracle" {...props} /> },
             { name: "Google Cloud", icon: SiGooglecloud },
             { name: "Grafana", icon: SiGrafana },
-            { name: "Zabbix", icon: ZabbixIcon },
+            { name: "Zabbix", icon: ZabbixBoxIcon },
             { name: "Wireshark", icon: SiWireshark },
             { name: "OpenVPN", icon: SiOpenvpn },
             { name: "WireGuard", icon: SiWireguard },
