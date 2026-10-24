@@ -39,11 +39,9 @@ import {
     SiWireshark,
     SiOpenvpn,
     SiWireguard,
-    SiAmazonwebservices,
+    SiAmazonaws,
     SiGooglecloud,
-    SiOracle,
-    SiGrafana,
-    SiZabbix,
+    SiMicrosoftazure,
 } from "react-icons/si";
 
 const stackCategories = [
@@ -58,11 +56,8 @@ const stackCategories = [
             { name: "Fortinet", icon: SiFortinet },
             // Cloud Infrastructure
             { name: "Google Cloud", icon: SiGooglecloud },
-            { name: "AWS", icon: SiAmazonwebservices },
-            { name: "Oracle", icon: SiOracle },
-            // Modern Monitoring & Observability
-            { name: "Grafana", icon: SiGrafana },
-            { name: "Zabbix", icon: SiZabbix },
+            { name: "AWS", icon: SiAmazonaws },
+            { name: "Azure", icon: SiMicrosoftazure },
             // VPN & Protocol Analysis
             { name: "Wireshark", icon: SiWireshark },
             { name: "OpenVPN", icon: SiOpenvpn },
