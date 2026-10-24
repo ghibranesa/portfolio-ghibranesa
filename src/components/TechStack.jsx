@@ -1,8 +1,7 @@
 import { useRef } from "react";
 import { Gsap } from "../utils/gsapAnimate";
-
+import { Icon } from '@iconify/react';
 import {
-    // --- IoT, Programming, & Software (Dipertahankan) ---
     SiC,
     SiCplusplus,
     SiPython,
@@ -40,9 +39,7 @@ import {
     SiOpenvpn,
     SiWireguard,
     SiGooglecloud,
-    SiAmazonwebservices,
     SiGrafana,
-    SiZabbix,
 } from "react-icons/si";
 
 const stackCategories = [
@@ -54,10 +51,16 @@ const stackCategories = [
             { name: "MikroTik", icon: SiMikrotik },
             { name: "Huawei", icon: SiHuawei },
             { name: "Fortinet", icon: SiFortinet },
-            { name: "AWS", icon: SiAmazonwebservices },
+            
+            // Bypass menggunakan Iconify dengan slug resmi Simple Icons
+            { name: "AWS", icon: (props) => <Icon icon="simple-icons:amazonaws" {...props} /> },
+            
             { name: "Google Cloud", icon: SiGooglecloud },
             { name: "Grafana", icon: SiGrafana },
-            { name: "Zabbix", icon: SiZabbix },
+            
+            // Bypass menggunakan Iconify dengan slug resmi Simple Icons
+            { name: "Zabbix", icon: (props) => <Icon icon="simple-icons:zabbix" {...props} /> },
+            
             { name: "Wireshark", icon: SiWireshark },
             { name: "OpenVPN", icon: SiOpenvpn },
             { name: "WireGuard", icon: SiWireguard },
