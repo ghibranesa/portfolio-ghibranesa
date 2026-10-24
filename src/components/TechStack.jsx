@@ -1,8 +1,8 @@
 import { useRef } from "react";
 import { Gsap } from "../utils/gsapAnimate";
 
-// Simple Icons (brand icons) from react-icons/si
 import {
+    // --- IoT, Programming, & Software (Dipertahankan) ---
     SiC,
     SiCplusplus,
     SiPython,
@@ -14,19 +14,12 @@ import {
     SiMysql,
     SiArduino,
     SiEspressif,
-    SiCisco,
     SiGit,
     SiAutocad,
     SiSketchup,
     SiEasyeda,
     SiMqtt,
-    SiHuawei,
-    SiMikrotik,
     SiProteus,
-    SiWireshark,
-    SiFortinet,
-    SiOpenvpn,
-    SiWireguard,
     SiXampp,
     SiLaragon,
     SiVite,
@@ -39,36 +32,41 @@ import {
     SiNodered,
     SiDassaultsystemes,
     SiNodedotjs,
+    SiCisco,
+    SiHuawei,
+    SiMikrotik,
+    SiFortinet,
+    SiWireshark,
+    SiOpenvpn,
+    SiWireguard,
+    SiAmazonwebservices,
+    SiGooglecloud,
+    SiOracle,
+    SiGrafana,
+    SiZabbix,
 } from "react-icons/si";
-
-// Lucide icons for generic/non-branded concepts
-import {
-    Sprout,
-    Orbit,
-    ScanEye,
-    Pyramid,
-    Waypoints,
-    SignalHigh,
-} from "lucide-react";
 
 const stackCategories = [
     {
-        title: "Networking & Telecommunications",
-        description: "Network infrastructure & communication systems",
+        title: "Networking & Cloud Infrastructure", 
+        description: "Enterprise network, multi-cloud systems & monitoring",
         skills: [
+            // Network Hardware & Security
             { name: "Cisco", icon: SiCisco },
-            { name: "MikroTik / The Dude", icon: SiMikrotik },
+            { name: "MikroTik", icon: SiMikrotik },
             { name: "Huawei", icon: SiHuawei },
             { name: "Fortinet", icon: SiFortinet },
+            // Cloud Infrastructure
+            { name: "Google Cloud", icon: SiGooglecloud },
+            { name: "AWS", icon: SiAmazonwebservices },
+            { name: "Oracle", icon: SiOracle },
+            // Modern Monitoring & Observability
+            { name: "Grafana", icon: SiGrafana },
+            { name: "Zabbix", icon: SiZabbix },
+            // VPN & Protocol Analysis
             { name: "Wireshark", icon: SiWireshark },
             { name: "OpenVPN", icon: SiOpenvpn },
             { name: "WireGuard", icon: SiWireguard },
-            { name: "OptiSystem", icon: Orbit },
-            { name: "Cacti", icon: Sprout },
-            { name: "Nmap", icon: ScanEye },
-            { name: "Atoll", icon: Pyramid },
-            { name: "Pathloss", icon: Waypoints },
-            { name: "TEMS Investigation", icon: SignalHigh },
         ]
     },
     {
