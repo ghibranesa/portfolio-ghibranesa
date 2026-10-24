@@ -40,6 +40,7 @@ import {
     SiOpenvpn,
     SiWireguard,
     SiGooglecloud,
+    SiGrafana,
 } from "react-icons/si";
 
 const stackCategories = [
