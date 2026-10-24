@@ -52,14 +52,17 @@ const stackCategories = [
             { name: "Huawei", icon: SiHuawei },
             { name: "Fortinet", icon: SiFortinet },
             
-            // Bypass menggunakan Iconify dengan slug resmi Simple Icons
+            // AWS tetap pakai simple-icons karena terbukti sukses
             { name: "AWS", icon: (props) => <Icon icon="simple-icons:amazonaws" {...props} /> },
+            
+            // Oracle ditambahkan pakai CoreUI Brands
+            { name: "Oracle", icon: (props) => <Icon icon="cib:oracle" {...props} /> },
             
             { name: "Google Cloud", icon: SiGooglecloud },
             { name: "Grafana", icon: SiGrafana },
             
-            // Bypass menggunakan Iconify dengan slug resmi Simple Icons
-            { name: "Zabbix", icon: (props) => <Icon icon="simple-icons:zabbix" {...props} /> },
+            // Zabbix dipindah ke Devicon untuk mengatasi render blank
+            { name: "Zabbix", icon: (props) => <Icon icon="devicon-plain:zabbix" {...props} /> },
             
             { name: "Wireshark", icon: SiWireshark },
             { name: "OpenVPN", icon: SiOpenvpn },
