@@ -40,7 +40,9 @@ import {
     SiOpenvpn,
     SiWireguard,
     SiGooglecloud,
+    SiAmazonwebservices,
     SiGrafana,
+    SiZabbix,
 } from "react-icons/si";
 
 const stackCategories = [
@@ -48,15 +50,14 @@ const stackCategories = [
         title: "Networking & Cloud Infrastructure", 
         description: "Enterprise network, multi-cloud systems & monitoring",
         skills: [
-            { name: "AWS", icon: null, logo: "https://cdn.simpleicons.org/amazonwebservices/white" },
-            { name: "Oracle", icon: null, logo: "https://cdn.simpleicons.org/oracle/white" },
-            { name: "Google Cloud", icon: SiGooglecloud },
             { name: "Cisco", icon: SiCisco },
             { name: "MikroTik", icon: SiMikrotik },
             { name: "Huawei", icon: SiHuawei },
             { name: "Fortinet", icon: SiFortinet },
+            { name: "AWS", icon: SiAmazonwebservices },
+            { name: "Google Cloud", icon: SiGooglecloud },
             { name: "Grafana", icon: SiGrafana },
-            { name: "Zabbix", icon: null, logo: "https://cdn.simpleicons.org/zabbix/white" },
+            { name: "Zabbix", icon: SiZabbix },
             { name: "Wireshark", icon: SiWireshark },
             { name: "OpenVPN", icon: SiOpenvpn },
             { name: "WireGuard", icon: SiWireguard },
